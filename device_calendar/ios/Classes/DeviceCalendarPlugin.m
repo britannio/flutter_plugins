@@ -3,6 +3,6 @@
 
 @implementation DeviceCalendarPlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
-  [SwiftDeviceCalendarPlugin registerWithRegistrar:registrar];
+  [DeviceCalendarPlugin registerWithRegistrar:registrar];
 }
 @end
